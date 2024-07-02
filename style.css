@@ -37,7 +37,8 @@ nav ul {
     justify-content: center;
     align-items: center;
     list-style-type: none;
-
+    font-size: ;
+    flex-wrap: wrap;
 }
 
 a {
@@ -64,7 +65,7 @@ a:hover{
         transform: scale(1);
     }
     50% {
-        transform: scale(1.1); 
+        transform: scale(1.2); 
     }
     100% {
         transform: scale(1);
@@ -73,6 +74,7 @@ a:hover{
 
 .pulse {
     animation: pulse 2s infinite; 
+    animation-duration: 1s;
 }
 
 @media screen and (max-width:500px) {
